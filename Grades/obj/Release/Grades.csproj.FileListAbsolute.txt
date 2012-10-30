@@ -1,0 +1,98 @@
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\Background.png
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\Grades.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\Grades.pdb
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\AppManifest.xaml
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\StudyTrackr.xap
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\IsolatedStorageExplorer.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\Microsoft.Advertising.Mobile.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\Microsoft.Phone.Controls.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\Microsoft.Phone.Controls.xml
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\da-DK\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\de-DE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\el-GR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\en-GB\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\es-ES\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\it-IT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\Bin\Release\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\App.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\About.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\AssignmentCreation.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\AssignmentEdit.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\CategoryDetail.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\ClassCreation.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\ClassDetail.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\ClassEdit.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\PanoramaPage1.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\Grades.g.resources
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\Grades.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\Grades.pdb
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades\Grades\obj\Release\XapCacheFile.xml
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\Background.png
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\Grades.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\Grades.pdb
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\AppManifest.xaml
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\StudyTrackr.xap
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\IsolatedStorageExplorer.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\Microsoft.Advertising.Mobile.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\Microsoft.Advertising.Mobile.UI.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\Microsoft.Phone.Controls.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\Microsoft.Phone.Controls.xml
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\da-DK\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\de-DE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\el-GR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\en-GB\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\es-ES\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\it-IT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\Bin\Release\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\App.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\About.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\AssignmentCreation.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\AssignmentEdit.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\CategoryDetail.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\ClassCreation.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\ClassDetail.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\ClassEdit.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\PanoramaPage1.g.i.cs
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\Grades.g.resources
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\Grades.dll
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\Grades.pdb
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\Grades V1.0\Grades\obj\Release\XapCacheFile.xml

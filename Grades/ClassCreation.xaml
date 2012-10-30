@@ -1,0 +1,183 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Grades.ClassCreation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True" xmlns:my="clr-namespace:Microsoft.Advertising.Mobile.UI;assembly=Microsoft.Advertising.Mobile.UI" Loaded="PhoneApplicationPage_Loaded">
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="StudyTrackr" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="Create A Class" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <ScrollViewer Width="450"
+                      Height="500"
+                      Grid.Row="1"
+                      VerticalAlignment="Top"
+                      VerticalScrollBarVisibility="Visible">
+            <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="200"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="267"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Class Name"
+                       Grid.Row="0"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Stretch"
+                       Margin="10,0,0,0"
+                       Grid.ColumnSpan="2"
+                       Foreground="{StaticResource PhoneAccentBrush}"
+                       />
+                <TextBox Name="nameBox"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Top"
+                     Grid.Row="1"
+                     Width="450"
+                     Grid.ColumnSpan="2"
+                     />
+
+                <TextBlock Text="Teacher Name"
+                       Grid.Row="2"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Stretch"
+                       Margin="10,0,0,0"
+                       Grid.ColumnSpan="2"
+                       Foreground="{StaticResource PhoneAccentBrush}"
+                       />
+                <TextBox Name="teacherBox"
+                     Grid.Row="3"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Top"
+                     Width="450"
+                     Grid.ColumnSpan="2"
+                     />
+                <TextBlock Text="Enter your grade categories and percentages"
+                       Grid.Row="4"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Stretch"
+                       Margin="10,0,0,0"
+                       Grid.ColumnSpan="2"
+                       Foreground="{StaticResource PhoneAccentBrush}"
+                       />
+                <TextBox Name="catNameBox"
+                     Text="Name of Category"
+                     Grid.Row="5"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Top"
+                     Grid.ColumnSpan="2"
+                     Width="450"
+                         GotFocus="catNameBox_GotFocus"
+                     />
+                <TextBox Name="catPercBox"
+                     Text="Weight in Percent"
+                     Grid.Row="6"
+                         InputScope="TelephoneNumber"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Top"
+                     Grid.ColumnSpan="2"
+                     Width="450"
+                         GotFocus="catPercBox_GotFocus"
+                     />
+                <ListBox Name="catBox"
+                     Grid.Row="7"
+                     Grid.RowSpan="3"
+                     Grid.Column="0"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Top"
+                     Width="265"
+                     Height="200"
+                     
+                     />
+                <Button Name="addButton"
+                    Grid.Row="7"
+                    Content="Add Category"
+                    Grid.Column="1"
+                        FontSize="17"
+                    Click="addButton_Click"
+                    />
+                <Button Name="removeButton"
+                    Grid.Row="8"
+                    Content="Remove"
+                    Grid.Column="1"
+                        FontSize="17"
+                    Click="removeButton_Click"
+                    />
+
+
+
+
+
+
+
+
+
+
+            </Grid>
+        </ScrollViewer>
+        <my:AdControl  AdUnitId="10024208" ApplicationId="39767cad-4243-4c5a-84e9-169089ca601d" Grid.Row="1" Height="77" HorizontalAlignment="Left" Margin="12,423,0,0" Name="adControl1" VerticalAlignment="Top" Width="453" />
+    </Grid>
+        
+ 
+    
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar.save.rest.png" Text="Save" Click="ApplicationBarIconButton_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar.delete.rest.png" Text="Delete" Click="ApplicationBarIconButton_Click_1"/>
+            <shell:ApplicationBar.MenuItems>
+                <!--<shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>-->
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

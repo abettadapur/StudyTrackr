@@ -1,0 +1,101 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Grades.AssignmentEdit"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded" xmlns:my="clr-namespace:Microsoft.Advertising.Mobile.UI;assembly=Microsoft.Advertising.Mobile.UI">
+
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="StudyTrackr" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ScrollViewer>
+                <Grid Name="infoGrid">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="200"/>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="170*"/>
+                        <ColumnDefinition Width="100*"/>
+                        <ColumnDefinition Width="170*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Name="nameTitle" Text="Name of Assignment" Foreground="{StaticResource PhoneAccentBrush}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
+                    <TextBox Name="nameBox" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"/>
+                    <TextBlock Name="dateTitle" Grid.Row="2" Text="Date" Foreground="{StaticResource PhoneAccentBrush}"/>
+                    <toolkit:DatePicker Name="dateBox" Grid.Row="3" Grid.ColumnSpan="3"/>
+                    <TextBlock Name="gradeTitle" Text="Grade" Foreground="{StaticResource PhoneAccentBrush}" Grid.Row="4" Grid.ColumnSpan="3"/>
+                    <TextBox Name="earnedBox" Grid.Row="5"  FontSize="78" InputScope="TelephoneNumber"/>
+                    <TextBlock Name="slashBox" Grid.Row="5"  FontSize="78" VerticalAlignment="Center" TextAlignment="Center" Grid.Column="1"  Text="/"/>
+                    <TextBox Name="maxBox" Grid.Row="5" Grid.Column="2" FontSize="78" InputScope="TelephoneNumber"/>
+                    <TextBlock Name="weightTitle" Text="Weight" Foreground="{StaticResource PhoneAccentBrush}" Grid.Row="6"/>
+                    <TextBox Name="weightBox" Grid.Row="7" FontSize="50" TextAlignment="Center" InputScope="TelephoneNumber"/>
+                </Grid>
+            </ScrollViewer>
+        </Grid>
+        <my:AdControl AdUnitId="10024208" ApplicationId="test_client" Grid.Row="1" Height="80" HorizontalAlignment="Right" Margin="0,455,0,0" Name="adControl1" VerticalAlignment="Top" Width="480" />
+    </Grid>
+
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar.save.rest.png" Text="Save" Click="ApplicationBarIconButton_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/ApplicationBar.Cancel.png" Text="Cancel" Click="ApplicationBarIconButton_Click_1"/>
+            <shell:ApplicationBar.MenuItems>
+                <!--<shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>-->
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>
